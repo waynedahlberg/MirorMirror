@@ -8,20 +8,36 @@
 
 /* Begin PBXBuildFile section */
 		B0A7A80E1E468B7100D7657E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A7A80D1E468B7100D7657E /* AppDelegate.swift */; };
-		B0A7A8101E468B7100D7657E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A7A80F1E468B7100D7657E /* ViewController.swift */; };
 		B0A7A8131E468B7100D7657E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0A7A8111E468B7100D7657E /* Main.storyboard */; };
 		B0A7A8151E468B7100D7657E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0A7A8141E468B7100D7657E /* Assets.xcassets */; };
 		B0A7A8181E468B7100D7657E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0A7A8161E468B7100D7657E /* LaunchScreen.storyboard */; };
+		B0A7A8201E468CDF00D7657E /* GridCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A7A81F1E468CDF00D7657E /* GridCollectionViewController.swift */; };
+		B0A7A8231E468E6D00D7657E /* Entry.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A7A8221E468E6D00D7657E /* Entry.swift */; };
+		B0A7A8261E46915A00D7657E /* GridCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A7A8251E46915A00D7657E /* GridCollectionViewCell.swift */; };
+		B0A7A8281E46923600D7657E /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A7A8271E46923600D7657E /* SettingsViewController.swift */; };
+		B0A7A82A1E46924500D7657E /* ProgressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A7A8291E46924500D7657E /* ProgressViewController.swift */; };
+		B0A7A82C1E46985300D7657E /* PhotoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A7A82B1E46985300D7657E /* PhotoDetailViewController.swift */; };
+		B0A7A8301E469CF500D7657E /* EntryStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A7A82F1E469CF500D7657E /* EntryStore.swift */; };
+		B0A7A8341E46A5C200D7657E /* ImageStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A7A8331E46A5C100D7657E /* ImageStore.swift */; };
+		B0A7A8361E46AD2100D7657E /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A7A8351E46AD2100D7657E /* CameraViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B0A7A80A1E468B7100D7657E /* BodyShotz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BodyShotz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0A7A80D1E468B7100D7657E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B0A7A80F1E468B7100D7657E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B0A7A8121E468B7100D7657E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B0A7A8141E468B7100D7657E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B0A7A8171E468B7100D7657E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B0A7A8191E468B7100D7657E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0A7A81F1E468CDF00D7657E /* GridCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GridCollectionViewController.swift; path = ../GridCollectionViewController.swift; sourceTree = "<group>"; };
+		B0A7A8221E468E6D00D7657E /* Entry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Entry.swift; sourceTree = "<group>"; };
+		B0A7A8251E46915A00D7657E /* GridCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridCollectionViewCell.swift; sourceTree = "<group>"; };
+		B0A7A8271E46923600D7657E /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		B0A7A8291E46924500D7657E /* ProgressViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressViewController.swift; sourceTree = "<group>"; };
+		B0A7A82B1E46985300D7657E /* PhotoDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoDetailViewController.swift; sourceTree = "<group>"; };
+		B0A7A82F1E469CF500D7657E /* EntryStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntryStore.swift; sourceTree = "<group>"; };
+		B0A7A8331E46A5C100D7657E /* ImageStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageStore.swift; sourceTree = "<group>"; };
+		B0A7A8351E46AD2100D7657E /* CameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +70,54 @@
 		B0A7A80C1E468B7100D7657E /* BodyShotz */ = {
 			isa = PBXGroup;
 			children = (
-				B0A7A80D1E468B7100D7657E /* AppDelegate.swift */,
-				B0A7A80F1E468B7100D7657E /* ViewController.swift */,
-				B0A7A8111E468B7100D7657E /* Main.storyboard */,
+				B0A7A8241E468E6F00D7657E /* Model */,
+				B0A7A8211E468E1700D7657E /* View */,
+				B0A7A82D1E4698E600D7657E /* Controllers */,
+				B0A7A82E1E4698FA00D7657E /* Interface */,
 				B0A7A8141E468B7100D7657E /* Assets.xcassets */,
+				B0A7A80D1E468B7100D7657E /* AppDelegate.swift */,
 				B0A7A8161E468B7100D7657E /* LaunchScreen.storyboard */,
 				B0A7A8191E468B7100D7657E /* Info.plist */,
 			);
 			path = BodyShotz;
+			sourceTree = "<group>";
+		};
+		B0A7A8211E468E1700D7657E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B0A7A8251E46915A00D7657E /* GridCollectionViewCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		B0A7A8241E468E6F00D7657E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B0A7A8221E468E6D00D7657E /* Entry.swift */,
+				B0A7A82F1E469CF500D7657E /* EntryStore.swift */,
+				B0A7A8331E46A5C100D7657E /* ImageStore.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		B0A7A82D1E4698E600D7657E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B0A7A81F1E468CDF00D7657E /* GridCollectionViewController.swift */,
+				B0A7A82B1E46985300D7657E /* PhotoDetailViewController.swift */,
+				B0A7A8291E46924500D7657E /* ProgressViewController.swift */,
+				B0A7A8271E46923600D7657E /* SettingsViewController.swift */,
+				B0A7A8351E46AD2100D7657E /* CameraViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		B0A7A82E1E4698FA00D7657E /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				B0A7A8111E468B7100D7657E /* Main.storyboard */,
+			);
+			name = Interface;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +193,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0A7A8101E468B7100D7657E /* ViewController.swift in Sources */,
+				B0A7A8261E46915A00D7657E /* GridCollectionViewCell.swift in Sources */,
+				B0A7A8361E46AD2100D7657E /* CameraViewController.swift in Sources */,
+				B0A7A8231E468E6D00D7657E /* Entry.swift in Sources */,
+				B0A7A8301E469CF500D7657E /* EntryStore.swift in Sources */,
+				B0A7A8201E468CDF00D7657E /* GridCollectionViewController.swift in Sources */,
+				B0A7A82C1E46985300D7657E /* PhotoDetailViewController.swift in Sources */,
+				B0A7A8341E46A5C200D7657E /* ImageStore.swift in Sources */,
+				B0A7A82A1E46924500D7657E /* ProgressViewController.swift in Sources */,
+				B0A7A8281E46923600D7657E /* SettingsViewController.swift in Sources */,
 				B0A7A80E1E468B7100D7657E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -300,6 +364,7 @@
 				B0A7A81E1E468B7100D7657E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
